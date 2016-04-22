@@ -119,9 +119,10 @@ form h2, #result_wrapper h2 {
 }
 
 .selector_wrapper select {
-    width: 4em;
+    width: auto;
+    min-width: 60px;
+    height: auto;
     font-family: Merriweather;
-    height: 25px;
 }
 
 /* Second and third form styles */
